@@ -1,5 +1,4 @@
 #include <iostream>
-#include "suma.cpp"
 #include "potega.cpp"
 using namespace std;
 
