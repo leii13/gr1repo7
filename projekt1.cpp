@@ -1,5 +1,5 @@
 #include <iostream>
-#include "potega.cpp"
+#include "suma.cpp"
 using namespace std;
 
 int main() {
@@ -23,7 +23,7 @@ int main() {
         if(wybor == 1) {
             //
         } else if(wybor == 2) {
-              cout<< potega(a, b);
+     
         } else if(wybor == 3) {
             //
         } else if(wybor == 4) {
