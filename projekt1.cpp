@@ -1,4 +1,5 @@
 #include <iostream>
+#include "tsk1.cpp"
 
 using namespace std;
 
@@ -21,7 +22,7 @@ int main() {
         cout << "6. suma" << endl;
         cin >> wybor;
         if(wybor == 1) {
-            //
+           cout << "NWD = " << nwd(a, b) << endl;
         } else if(wybor == 2) {
             //
         } else if(wybor == 3) {
