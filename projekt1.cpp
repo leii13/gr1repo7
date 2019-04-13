@@ -1,6 +1,6 @@
 #include <iostream>
 #include "tsk1.cpp"
-
+#include "tsk5.cpp"
 using namespace std;
 
 int main() {
@@ -30,7 +30,8 @@ int main() {
         } else if(wybor == 4) {
             //
         } else if(wybor == 5) {
-            //
+            cout << "Dzielniki liczby (" << a << ") : ";
+	    dzielniki(a);
         } else if(wybor == 6) {
             //
         }
