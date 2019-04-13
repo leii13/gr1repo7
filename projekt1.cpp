@@ -1,6 +1,7 @@
 #include <iostream>
 #include "tsk1.cpp"
 #include "tsk5.cpp"
+#include "suma.cpp"
 using namespace std;
 
 int main() {
@@ -33,8 +34,9 @@ int main() {
             cout << "Dzielniki liczby (" << a << ") : ";
 	    dzielniki(a);
         } else if(wybor == 6) {
-            //
+              cout<< suma(a, b);
         }
     } while(wybor != 0);
     return 0;
 }
+
