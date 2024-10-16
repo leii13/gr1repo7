@@ -5,7 +5,7 @@ int pierwsza(int n){
         if (n%i == 0) {
 	  cout << n << " jest pierwsza ";
 	  break;
-	}	
+	}
     }
-    cout << n << " nie jest pierwza";
+    cout << n << " nie jest pierwsza";
 }
